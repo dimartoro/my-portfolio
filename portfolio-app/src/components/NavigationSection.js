@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavItem from './NavItem';
 
-function NavigationSection() {
+function NavigationSection(props) {
 
   const [items,setItems] = useState([
     {id:1,name:'About me', active:true}
@@ -9,10 +9,24 @@ function NavigationSection() {
     ,{id:3,name:'Contact me', active:false}
     ,{id:4,name:'Resume', active:false}
   ]);
+
+  const handleMenuChange = (newActiveItem)=>{
+    var newItems = [...items];
+    for(var x = 0; x<newItems.length; x++){
+      if(newItems[x].id == newActiveItem.id){
+        newItems[x].active = true;
+      }else{
+        newItems[x].active = false;
+      }
+    }
+    setItems(newItems);
+    props.activeMenu(newActiveItem.name);
+  };
+
   return( 
     <div>
       <ul>
-        <NavItem items={items}/>
+        <NavItem handleClick={handleMenuChange} items={items}/>
     </ul>
   </div>
   );
