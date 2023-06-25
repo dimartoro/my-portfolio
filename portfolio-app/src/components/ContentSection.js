@@ -9,6 +9,7 @@ import Button from 'react-bootstrap/Button';
 
 
 function ContentSection(props) {
+  
   return (
     
     (props.activeMenu==='Portfolio')?

@@ -3,12 +3,20 @@ import React, { useState } from 'react';
 import Toast from 'react-bootstrap/Toast';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import myphoto from '../assets/images/myphoto.jpg';
 
 function AboutMe() {
   return (
       <section id="about-me" className="about grid-item-main">
       <div className="grid-container">
-        <div className="grid-item">About me</div>
+        <div>
+          <div className="grid-item">About me</div>
+          <div className="grid-item-work">
+                <div className="main-app-bk">
+                    <img src={myphoto}/>
+                </div>
+            </div>
+        </div>
         <div className="grid-item">
           <article>
             <p>

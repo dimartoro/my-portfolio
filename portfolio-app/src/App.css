@@ -243,7 +243,7 @@ padding: 5px;
 }
 
 .activeItem{
-  color:#ec5700;
+  color:#ab663d;
 }
 
 
@@ -288,4 +288,36 @@ padding: 5px;
   max-width: 100%;
   display:block;
    margin:0 auto; 
+}
+
+.singleCol{
+  max-width: 750px;
+  margin: 0 auto;
+  color:rgb(63, 61, 61);
+}
+
+.social-media-icons-blue a{
+  color:rgb(63, 61, 61);
+  font-size: 2rem;
+}
+
+.invalidInput{
+  color:#ec5700;
+  font-size: 1.5em;
+  background-color:#bdd1db;
+  margin: 2rem;
+  padding-left: 2rem;
+}
+
+.imgResume{
+  width: 25%;
+}
+
+.hidden{
+  display: none;
+}
+
+.iconsSocial{
+  margin-bottom: -3rem;
+  z-index:-1;
 }
