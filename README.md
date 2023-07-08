@@ -17,13 +17,13 @@ This is my portfolio, a site for prospective employers to go through different a
 - [License](#license)
 
 ## Installation
-Create and administered GitHub Repo, merged multiple branches, Redme has all details needed for access code. Technologies used: React, Node.js.
+Create and administered GitHub Repo, merged multiple branches. Technologies used: React, Node.js.   Access https://github.com/dimartoro/my-portfolio.git for code details. 
 
 ## Usage
 My Portfolio shows employers some very interesting applications I have developed.
 
 ## Deployeedurl
-https://github.com/dimartoro/diana-castro-portafolio.git
+https://dimartoro.github.io/my-portfolio/
 
 ## Tests
 Accessing the applications through the Portfolio links will test them.
