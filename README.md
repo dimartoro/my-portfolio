@@ -1,6 +1,6 @@
 # My Portfolio
 
-# Diana Castro Portfolio
+# Diana Castro's React Portfolio 
 
 ## Description
 This is my portfolio, a site for prospective employers to go through different applications I have created, and evaluate the different skills I have acquired as a full-stack developer.
