@@ -17,7 +17,7 @@ This is my portfolio, a site for prospective employers to go through different a
 - [License](#license)
 
 ## Installation
-Create and administered GitHub Repo, merged multiple branches, Redme has all details needed for access code.
+Create and administered GitHub Repo, merged multiple branches, Redme has all details needed for access code. Technologies used: React, Node.js.
 
 ## Usage
 My Portfolio shows employers some very interesting applications I have developed.
