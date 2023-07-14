@@ -85,7 +85,7 @@ function Portfolio() {
                   <FontAwesomeIcon icon={faGithub}/>
                 </a>
               </div>
-              <a href="https://ch11-express-js-note-taker.herokuapp.com/" target="_blank">
+              <a href="https://vinyl-vibes-lp-cda464cf0a39.herokuapp.com/" target="_blank">
                 <div className="main-app-bk">
                     <img src={vinylvibes}/>
                 </div>
