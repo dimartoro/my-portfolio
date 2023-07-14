@@ -26,7 +26,11 @@ My Portfolio shows employers some very interesting applications I have developed
 https://dimartoro.github.io/my-portfolio/
 
 ## Tests
-Accessing the applications through the Portfolio links will test them.
+Accessing the applications through the Portfolio links will test them.  
+P1. Diana Castro Portfolio:           
+![alt "DC Portfolio"](./src/assets/images/dcportfolio.png)      
+P2. My Work:          
+![alt "My Work"](./src/assets/images/mywork.png) 
 
 ## Email
 Contact me with additional questions at this email address:
