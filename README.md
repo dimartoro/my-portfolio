@@ -28,7 +28,7 @@ https://dimartoro.github.io/my-portfolio/
 ## Tests
 Accessing the applications through the Portfolio links will test them.  
 P1. Diana Castro Portfolio:           
-![alt "DC Portfolio"](./src/assets/images/dcportfolio.png)      
+![alt "DC Portfolio"](./src/assets/images/dcportfolio.png)        
 P2. My Work:          
 ![alt "My Work"](./src/assets/images/mywork.png) 
 
