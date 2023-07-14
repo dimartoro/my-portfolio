@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import employeetracker from '../assets/images/EmployeeTracker.png'
 import notetaker from '../assets/images/notetaker.png'
+import vinylvibes from '../assets/images/vinylvibes.png'
 import scheduler from '../assets/images/scheduler.png'
 import sidehustle from '../assets/images/sidehustle.png'
 import wherewedranking from '../assets/images/WhereWeDranking.png'
@@ -77,6 +78,19 @@ function Portfolio() {
         <div className="grid-item">My Work</div>
         <div className="grid-item">
           <div className="grid-container-work">
+          <div id="divVinyl"  className="grid-item-work" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+              <div className={'singleCol social-media-icons-blue d-flex justify-content-evenly'}>
+              <div><a href="https://vinyl-vibes-lp-cda464cf0a39.herokuapp.com/" target="_blank">Vinyl-Vibes</a></div>
+                <a href='https://github.com/dimartoro/vinyl-vibes.git' target="_blank">
+                  <FontAwesomeIcon icon={faGithub}/>
+                </a>
+              </div>
+              <a href="https://ch11-express-js-note-taker.herokuapp.com/" target="_blank">
+                <div className="main-app-bk">
+                    <img src={vinylvibes}/>
+                </div>
+              </a>
+            </div>
             <div id="divSideHustle" className="grid-item-work" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
               <div className={'singleCol social-media-icons-blue d-flex justify-content-evenly'}>
                 <div><a href="https://side-hustle.herokuapp.com/" target="_blank">Side Hustle</a></div>
@@ -90,7 +104,7 @@ function Portfolio() {
                 </div>
               </a>
             </div>
-            <div id="divNoteTaker"  className="grid-item-work" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <div id="divNoteTaker"  className=" grid-item-work" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
               <div className={'singleCol social-media-icons-blue d-flex justify-content-evenly'}>
               <div><a href="https://ch11-express-js-note-taker.herokuapp.com/" target="_blank">Note Taker</a></div>
                 <a href='https://github.com/dimartoro/ch11-express-js-note-taker.git' target="_blank">
